@@ -1,0 +1,135 @@
+@import "../../styles/variables";
+
+.desktopFilter {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+  align-items: flex-start;
+  width: 100%;
+  user-select: none;
+  padding-bottom: 40px;
+
+  &__main {
+    display: block;
+  }
+
+  &__button {
+    position: absolute;
+    left: 2px;
+    top: 50%;
+    margin-top: -12px;
+  }
+
+  &__label {
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 1;
+    font-weight: 500;
+    color: currentColor;
+
+    &_current {
+      color: currentColor;
+    }
+  }
+
+  &__category {
+    margin-right: 40px;
+
+    &:last-child {
+      margin-right: 0
+    }
+
+    &_main {
+      position: relative;
+      padding-left: 54px;
+      color: currentColor;
+    }
+  }
+
+  &__current-button {
+    opacity: 0.5;
+    font-size: 18px;
+    line-height: 1;
+    cursor: pointer;
+    transition: opacity $duration, color $duration;
+    color: currentColor;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: $regular;
+    font-family: Helvetica;
+
+    &:hover {
+      opacity: 0.8;
+      transition-duration: $duration / 2;
+    }
+
+    &_main {
+      opacity: 1;
+    }
+  }
+
+  &__current {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+    align-items: center;
+    margin-right: 40px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+  &__sections {
+    padding-right: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+    align-items: center;
+    line-height: 1;
+
+    &-wrap {
+      display: flex;
+      transform-origin: left center;
+    }
+  }
+
+  &__options {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    left: 0;
+    width: 100%;
+
+    &-item {
+      margin-right: 40px;
+      font-size: 14px;
+      color: currentColor;
+      line-height: 1;
+      cursor: pointer;
+      transition: opacity $duration;
+      text-align: left;
+      opacity: 0.5;
+      text-transform: uppercase;
+      font-family: Helvetica;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      &:hover {
+        opacity: 0.3;
+        transition-duration: $duration / 2;
+      }
+    }
+  }
+
+  &__buttons {
+    display: flex;
+  }
+}
+

@@ -1,0 +1,35 @@
+@import 'variables';
+@import 'reset';
+
+//@import fonts
+//@import mixins
+
+body, html {
+  height: 100%;
+  font-weight: $light;
+  color: $text-color;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: none;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+* {
+  font-family: $font-family;
+  padding: 0;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: currentColor;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+button {
+  cursor: pointer;
+}

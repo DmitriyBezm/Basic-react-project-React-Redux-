@@ -1,0 +1,39 @@
+[
+  {
+    "title": "technologies",
+    "code": "tech",
+    "options": [
+      {
+        "id": "5abcdce675a51b001d8a1f41",
+        "title": "solutions",
+        "code": "solutions"
+      },
+      {
+        "id": "5abcdd0375a51b001d8a1f42",
+        "title": "blockchain",
+        "code": "chain"
+      },
+      {
+        "id": "5abcdd3475a51b001d8a1f43",
+        "title": "Audio",
+        "code": "sound"
+      }
+    ]
+  },
+  {
+    "title": "categories",
+    "code": "spheres",
+    "options": [
+      {
+        "id": "5abcde7875a51b001d8a1f4c",
+        "title": "Social",
+        "code": "social"
+      },
+      {
+        "id": "5abcde9475a51b001d8a1f4d",
+        "title": "E-commerce",
+        "code": "ecommerce"
+      }
+    ]
+  }
+]

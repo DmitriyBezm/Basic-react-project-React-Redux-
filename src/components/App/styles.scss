@@ -1,0 +1,19 @@
+@import '../../styles/variables';
+
+$offset: 40px;
+$border-color: #eee;
+
+.app {
+  &__header {
+    font-size: 30px;
+    padding: $offset;
+    border-bottom: 1px solid $border-color;
+    text-transform: uppercase;
+    font-weight: $medium;
+  }
+
+  &__filter {
+    padding: $offset;
+    border-bottom: 1px solid $border-color
+  }
+}

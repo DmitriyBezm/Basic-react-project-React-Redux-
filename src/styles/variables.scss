@@ -1,0 +1,47 @@
+// page min-height
+$min-height: 465px;
+
+// colors
+$blue-color: #E9F5FF;
+$white-color: #FFF;
+$grey-color: #EEEEEE;
+$light-grey-color: #F3F3F3;
+$ultra-light-grey-color: #F9F9F9;
+$dark-grey-color: #727272;
+$black-color: #000000;
+$border-color: #E6E6E6;
+$warning-color: #bba807;
+$error-color: #f94141;
+$grey-text-color: #C7C7C7;
+$grey-filter-color: #373737;
+
+// photo background color
+$photo-bg-color: #D8D8D8;
+
+// font colors
+$text-color: #090909;
+$text-hover-color: #666666;
+
+// button colors
+$button-color: $light-grey-color;
+$button-hover-color: #090909;
+
+// font-weight namespace
+$thin: 100;
+$ultralight: 200;
+$light: 300;
+$regular: 400;
+$medium: 500;
+$bold: 600;
+$extra-bold: 700;
+$super-bold: 800;
+$heavy: 900;
+
+// used font formats
+$formats: ttf woff woff2;
+$font-size: 18px;
+$font-family: Mullerblack;
+$main-fonts: $font-family, Arial Helvetica, sans-serif;
+
+// animation
+$duration: 0.35s;
